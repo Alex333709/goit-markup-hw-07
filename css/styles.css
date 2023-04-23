@@ -1077,11 +1077,16 @@ img {
   .header {
     border-bottom: 1px solid var(--color-acent);
   }
-
-  /* .header-navigation {
+  .header-container {
     display: flex;
-    align-items: center;
-  } */
+    justify-content: space-between;
+  }
+  .menu-open-btn {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: transparent;
+  }
 
   .header-logo {
     margin-right: 76px;
